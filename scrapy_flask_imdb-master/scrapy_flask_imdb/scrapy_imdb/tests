@@ -1,0 +1,10 @@
+#movie list:
+$x('//tbody[@class="lister-list"]/tr\
+                /td[@class="titleColumn"]/a/@href')
+#cast list:
+$x('//table[@class="cast_list"]/tbody/tr/td[@itemprop="actor"]/a/span/text()')
+
+# title_id = tt0111161
+
+# all reviews in a page :
+$x('//*[@id="tn15content"]/p/text()')
